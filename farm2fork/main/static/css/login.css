@@ -1,0 +1,62 @@
+/* Apply background color */
+body {
+    background-color: #f2f2f2;
+}
+
+/* Style the form container */
+form {
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+h2.login-header {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4d783c;
+    margin-bottom: 10px;
+    
+    padding-bottom: 5px;
+}
+
+/* Style form elements */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 130px;
+
+}
+
+div.bg-image{
+    filter: blur(8px);
+    
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+p{
+    font-weight: bold;
+    color: white;
+}
